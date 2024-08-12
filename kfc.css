@@ -1,0 +1,385 @@
+.header{
+    width: 100%;
+    height: 51px;
+    background: white;
+  
+}
+
+body{
+    margin: 0;
+    overflow: visible;
+}
+.mainhead{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+
+}
+.locationimage{
+     float: left;
+     
+
+
+}
+.img{
+    float: left;
+    margin-top: 18px;
+    margin-left: 411px;
+}
+.allow{
+    float: left;
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 19px;
+    margin-top: 19px;
+    font-family: "National 2 Regular";
+    line-height: 24px;
+    
+
+}
+.topbutton{
+    margin-top: 13px;
+    margin-left: 27px;
+    border-radius: 12px;
+    font-size: 12px;
+    height: 32px;
+    color: white;
+    background: black;
+    font-family: "National2-Medium";
+    font-style: normal;
+    border: 1px;
+    font-weight: 400;
+    width: 99px;
+    text-align: center;
+    overflow: visible;
+    cursor: pointer;
+}
+.fullnavbar{
+    width: 100%; 
+    height: 107px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+   
+   
+}
+.rightnavdiv{
+    display:inline-flex;
+    margin-left: -91px;
+    cursor: pointer;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    
+}
+.right{
+    font-family: "National 2 medium",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+
+}
+ 
+.leftnavdiv{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+.bucket{
+    display: flex;
+    width: 52px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: -155px;
+    filter: drop-shadow(1px 1px 1px rgb(241, 237, 237));
+    cursor: pointer;
+
+    
+}
+.left{
+    
+    display: contents;
+    font-family: "National 2 medium",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: right;
+    cursor: pointer;
+
+}
+.rupees{
+    
+    margin-right: -50px;
+    cursor: pointer;
+}
+    
+.black{
+    width: 100%;
+    height: 66px;
+    background: black;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    
+
+}
+.letsorderdiv{
+    width: 38%;
+    height: 59%;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: right;
+    color: white;
+    margin-top: 5px;
+
+}
+.startbuttondiv{
+    width: 25%;
+    height: 90%;
+    margin-top: 5px;
+    
+
+
+}
+button{
+    background: rgb(224, 32, 32);
+    color: rgb(241, 232, 232);
+    text-decoration: none;
+    font-family: ui-sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    height: 40px;
+    border: 0;
+    border-radius: 32.5px;
+    transition-duration: .3s;
+    transition-property: background;
+    width: 175px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+button:hover{
+ 
+    color: #f50e0e;
+}
+.firstbackdiv{
+    width: 100%;
+    height: 340px;
+    background: gold;
+
+}
+.mainmenudiv{
+    display: flex;
+    width: 80%;
+    height: 261px;
+    margin-left: 140px;
+    margin-right: 80px;
+    
+}
+.browsediv{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 57%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 94px;
+    text-align: left;
+    height: 27%;
+}
+.linediv{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 2px;
+    margin-right: 8px;
+    height: 20%;
+    width: 109%;
+    margin-top: 13%;
+    border-top: #e4d9d9;
+    border-style: solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.pickmenudiv{
+    width: 1024px;
+    margin:auto
+    
+}
+
+.grids{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    column-gap: 25px;
+    row-gap: 22px;
+    width: 1000px;
+    
+
+}
+.gridbox{
+    box-sizing:border-box;
+    border-width: 10px;
+    background: #f8f7f5;
+    text-align: center;
+    cursor: pointer;
+    display:grid;
+    text-decoration: none;
+
+
+}
+.gridbox img{
+    width: 17.89vw;
+    height: 13.4vw;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: #202124;
+    vertical-align:centre;
+    
+    
+    
+}
+.gridbox h3{
+    color: #202124;
+    font-family:sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+
+    
+    
+}
+.gridboxarrow h3{
+    margin-left: 30px;
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    line-height: 24px;
+    cursor: pointer;
+}
+    
+.gridboxarrow{
+    width: 220px;
+    margin: auto;
+    height: 200px;
+    display: grid;
+    background: #f8f7f5;;
+}
+.gridboxarrow img{
+    margin-top: 20px;
+    margin-left: 1px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: #202124;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.offercontainerdiv{
+    background: #e4d9d9;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1263px;
+    height: 766px;
+}
+.offercarddiv{
+    margin-left: 200px;
+    width: 1063px;
+    height: 766px;
+    margin-top: 0px;
+    background: yellow;
+}
+.icondiv{
+    background: green;
+    margin-left: 36px;
+    margin-bottom: 51.8px;
+    width: 1027px;
+    height: 58px;
+
+}
+.box{
+    display: inline-block;
+    width: 20px;
+    height: 44px;
+    
+    
+}
+.red{
+    background: rgb(228 ,0,0) ;
+}
+.exclusivediv{
+    margin-left: 36px;
+    margin-bottom: 40px;
+    width: 1028px;
+    height: 51px;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exh{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 43px;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.viewdiv{
+    margin-right: 160px;
+    width: 117px;
+    height: 27px;
+    color: white;
+}
+.view{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.offercardcontainerdiv{
+    width: 1063px;
+    height: 581px;
+    margin-top: 66px;
+    background: rgb(240, 159, 38);
+}
+.cardofferlistdiv{
+    display: flex;
+    flex-direction: column;
+    column-count: auto;
+    border-radius: 8px;
+    height: 389px;
+    width: 1063px;
+    overflow: visible;
+
+}
+.cardofferlistdiv img{
+    width: 330px;
+    height: 230px;
+}
