@@ -559,8 +559,9 @@ button:hover{
 .uldivtitle h5{
     margin-bottom: 10px;
     color: #e3e3e3;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "National 2 Regular";
+    margin-top: 0px;
 }
 .footerlist{
     list-style: none;
@@ -606,7 +607,7 @@ button:hover{
 .footerlastdiv{
     width: 100%;
     height: 50px;
-    background-color: #7491ea;
+    background-color: #202124;
     margin: 0;
 }
 .row{
@@ -627,11 +628,13 @@ button:hover{
 .colm{
     display: flex;
     align-items: center;
-    width: 286px;
+    
     height: 34px;
+    width: 800px;
 }
 .copypara{
-    width: 286px;
+    text-align: end;
+    width: 668px;
     height: 15px;
     color: #dbdbdb;
     line-height: 12px;
