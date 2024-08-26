@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .header{
     width: 100%;
     height: 51px;
@@ -69,10 +72,12 @@ body{
     position: sticky;
     z-index: 9999;
     top: 0;
+    margin-right: 3px;
+    width: 584px;
     
 }
 .right{
-    font-family: "National 2 medium",sans-serif;
+    font-family: ""Fira Sans"
     font-weight: 500;
     font-size: 14px;
     font-weight: bold;
@@ -83,19 +88,21 @@ body{
 .leftnavdiv{
     display: flex;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 11px;
     position: sticky;
     z-index: 9999;
     top: 0;
+    width: 151px;
 }
 .bucket{
     display: flex;
     width: 52px;
-    padding-left: 35px;
+    padding-left: 0px;
     padding-right: 35px;
     margin-right: -155px;
     filter: drop-shadow(1px 1px 1px rgb(241, 237, 237));
     cursor: pointer;
+    
 }
 .left{
     
@@ -154,7 +161,6 @@ button{
     border: 0;
     border-radius: 32.5px;
     transition-duration: .3s;
-    transition-property: background;
     width: 175px;
     align-items: center;
     align-content: center;
@@ -224,8 +230,6 @@ button:hover{
     column-gap: 25px;
     row-gap: 22px;
     width: 1000px;
-    
-
 }
 .gridbox{
     box-sizing:border-box;
@@ -235,8 +239,6 @@ button:hover{
     cursor: pointer;
     display:grid;
     text-decoration: none;
-
-
 }
 .gridbox img{
     width: 17.89vw;
@@ -244,10 +246,7 @@ button:hover{
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: #202124;
-    vertical-align:centre;
-    
-    
-    
+    vertical-align:centre;  
 }
 .gridbox h3{
     color: #202124;
@@ -260,7 +259,6 @@ button:hover{
 .gridboxarrow h3{
     margin-left: 30px;
     margin-top: 10px;
-
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -330,7 +328,6 @@ button:hover{
 .exh{
     font-size: 24px;
     font-weight: 900;
-    line-height: ;
     text-decoration: none;
     text-transform:uppercase;
     letter-spacing: 1px;
@@ -446,8 +443,8 @@ button:hover{
     text-decoration: underline;
     padding: initial;
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 24px;
     color: #494949;
     width: 78px;
@@ -474,7 +471,7 @@ button:hover{
     color: #494949;
    font-size: 14px;
    line-height: 24px;
-   font-weight: 500;
+   font-weight: 600;
    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;;
 }
 .rangeinput{
@@ -529,13 +526,12 @@ button:hover{
     margin-left: 23px;
     width: 483px;
     height: 156px;
-    font-family: "National 2 Regular";
-    
+    opacity: 1.9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .uldivtitle{
     width: 139px;
     height: 156px;
-    font-family: "National 2 Regular";
 }
 .footerul{
     margin-bottom: 16px;
@@ -548,34 +544,35 @@ button:hover{
 }
 .footerul a{
     padding-right: 40px;
-    font-family: "National 2 Regular";
-    font-weight: 700;
     text-decoration: none;
     background-color: transparent;
     cursor: pointer;
     color: #e3e3e3;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
 }
 .uldivtitle h5{
     margin-bottom: 10px;
     color: #e3e3e3;
     font-size: 12px;
-    font-family: "National 2 Regular";
     margin-top: 0px;
+    font-family: "DM Sans", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: 400px;
 }
 .footerlist{
     list-style: none;
     color: #e3e3e3;
     font-size: 14px;
     font-weight: 400;
-    font-family: "National 2 Regular";;
     font-style: normal;
     margin-top: 5px;
 }
 .locationlogo{
     width: 103px;
     height: 157px;
-
 }
 .locationlogo img{
     width: 11px;
@@ -590,6 +587,7 @@ button:hover{
     cursor: pointer;
     line-height: 22px;
     background-color: transparent;
+    font-family: "DM Sans", sans-serif;
 }
 .socialbuttons{
     width: 266px;
@@ -618,17 +616,19 @@ button:hover{
     text-align: center;
     margin-left: 46px;
     margin-right: -15px;
-    font-family: "National 2 Regular";
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     padding-bottom: 14px;
     line-height: 22px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .colm{
     display: flex;
     align-items: center;
-    
     height: 34px;
     width: 800px;
 }
@@ -638,7 +638,10 @@ button:hover{
     height: 15px;
     color: #dbdbdb;
     line-height: 12px;
-    font-family: "National 2 Regular";
+    font-family: "DM Sans", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
     font-size: 12px;
 }
 .colmsocial{
@@ -663,7 +666,9 @@ button:hover{
 }
 .colmsocial a{
     color: #202124;
-    font-family: "National 2 Regular";
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px; 
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
