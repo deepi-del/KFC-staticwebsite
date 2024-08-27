@@ -37,8 +37,9 @@ body{
     font-style: normal;
     padding-left: 19px;
     margin-top: 19px;
-    font-family: "National 2 Regular";
+    font-family: "Moderustic", sans-serif;
     line-height: 24px;
+    font-weight: 400;
 }
 .topbutton{
     margin-top: 13px;
