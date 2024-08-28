@@ -176,7 +176,10 @@ button:hover{
 .firstbackdiv{
     width: 100%;
     height: 340px;
-    background: gold;
+    
+}
+.firstbackdiv img{
+    width: 100%;
 }
 .mainmenudiv{
     display: flex;
@@ -350,7 +353,7 @@ button:hover{
    
 }
 .cardlistdiv{
-    width: 1126px;
+    width: 1064px;
     height: 565px;
     background-color: #202124;
     display: flex;
@@ -358,14 +361,14 @@ button:hover{
     font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
 }
 .listdiv{
-    width: 1126px;
+    width: 1066px;
     height: 398px;
     margin-bottom: 66px;
     background-color:#202124;
     display: flex;
 }
 .sliderlistdiv{
-    width: 1126px;
+    width: 1066px;
     height: 398px;
     display: flex;
 }
